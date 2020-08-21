@@ -1,0 +1,58 @@
+.logo {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  color: #858585;
+}
+
+.campo {
+  background-color: white;
+  border-radius: 5px;
+  height: 35px;
+  width: 200px;
+  margin-bottom: 13px;
+  padding: 0px 15px;
+  border: none;
+}
+
+.campo-select {
+  background-color: white;
+  border-radius: 5px;
+  height: 35px;
+  width: 230px;
+  margin-bottom: 13px;
+  padding: 0px 15px;
+  border: none;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+  color:#858585;
+  text-decoration: underline;
+}
+
+body {
+  margin-top: 5%;
+}
+
+button {
+  margin-top: 30px;
+  border: none;
+  background-color: #0085FF;
+  border-radius: 5px;
+  color: white;
+  height: 35px;
+  width: 215px;
+}
