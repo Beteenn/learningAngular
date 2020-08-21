@@ -16,3 +16,53 @@
   text-align: center;
   font-size: 24px;
 }
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.agendar {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  margin-top: 30px;
+  width: 230px;
+  height: 35px;
+  background-color: #0085FF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.campo {
+  background-color: white;
+  border-radius: 5px;
+  height: 35px;
+  width: 200px;
+  margin-bottom: 20px;
+  padding: 0px 15px;
+  border: none;
+}
+
+.campo-2 {
+  background-color: white;
+  border-radius: 5px;
+  height: 35px;
+  width: 75px;
+  margin-bottom: 20px;
+  padding: 0px 15px;
+  border: none;
+}
+
+input[type="date" i] {
+  font-family: Roboto;
+  color:#858585;
+}
+
+input[type="time" i] {
+  font-family: Roboto;
+  color:#858585;
+}
