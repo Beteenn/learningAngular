@@ -1,0 +1,82 @@
+.menu {
+  position: fixed;
+  background-color: #FFFFFF;
+  width: 300px;
+  height: 100%;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  width: 80px;
+  margin-top: 80px;
+  background-color: #d3d3d3;
+  border-radius: 30px;
+  padding: 13px;
+}
+
+#name {
+  text-align: center;
+  color: #707070;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.button {
+  width: 300px;
+  height: 40px;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.button:focus {
+  outline-style: none
+}
+
+.button:hover{
+  background-color: #dadada;
+  transition-duration: 0.5s;
+}
+
+.button:active{
+  background-color: #616161;
+  transition-duration: 0.3s;
+}
+
+#button1 {
+  background-color: #24245B;
+  color: white;
+  font-weight: bold;
+}
+
+#button1:active {
+  background-color: #090941;
+  transition-duration: 0.3s;
+}
+
+#exit {
+  width: 300px;
+  height: 30px;
+  border: none;
+  color: white;
+  background-color: #FF0F00;
+  border-radius: 5px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 9px;
+}
+
+#exit:active {
+  background-color: #c70d00;
+  transition-duration: 0.03s;
+}
+
+#exit:focus {
+  outline-style: none;
+}

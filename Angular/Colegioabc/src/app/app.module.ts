@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './pages/login/login.component';
 import { AgendarComponent } from './pages/agendar/agendar.component';
+import { SidemenuComponent } from './shared/sidemenu/sidemenu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    AgendarComponent
+    AgendarComponent,
+    SidemenuComponent
   ],
   imports: [
     BrowserModule,

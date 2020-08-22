@@ -37,6 +37,16 @@
   border-radius: 5px;
 }
 
+.button:active{
+  background-color: #02428b;
+  transition-duration: 0.2s;
+}
+
+.button:focus {
+  outline-style: none
+}
+
+
 .campo {
   background-color: white;
   border-radius: 5px;
@@ -45,6 +55,10 @@
   margin-bottom: 20px;
   padding: 0px 15px;
   border: none;
+}
+
+:focus {
+  outline-color: #0085FF;
 }
 
 .campo-2 {

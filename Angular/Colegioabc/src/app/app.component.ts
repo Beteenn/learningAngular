@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Colegioabc';
+
+  constructor(
+  ) {}
+
+  isLogin() {
+    var url = window.location.href;
+    if (url != 'http://localhost:4200/login')
+      return false;
+    return true;
+  }
 }
